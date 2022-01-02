@@ -1,11 +1,29 @@
 import { createRouter, createWebHashHistory, RouteRecordRaw } from 'vue-router';
-import Home from '../views/Home.vue';
+import Home from '../views/home2.vue';
+import InsuranceSucks from '../page-content/insurance-sucks.vue';
+import HeyDavid from '../page-content/hey-david.vue';
+import TheProblem from '../page-content/the-problem.vue';
 
 const routes: Array<RouteRecordRaw> = [
   {
     path: '/',
-    name: 'Home',
+    name: 'Home-vue-route',
     component: Home,
+  },
+  {
+    path: '/insurance-sucks',
+    name: 'InsuranceSucks-vue-route',
+    component: InsuranceSucks,
+  },
+  {
+    path: '/hey-david',
+    name: 'HeyDavid-vue-route',
+    component: HeyDavid,
+  },
+  {
+    path: '/the-problem',
+    name: 'TheProblem-vue-route',
+    component: TheProblem,
   },
   {
     path: '/about',
