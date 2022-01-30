@@ -28,7 +28,7 @@ import { PropType } from 'vue';
 type ForkOption = { text: string; route?: string };
 
 export default {
-  name: 'HelloWorld',
+  name: 'ForkInTheRoad',
   props: { options: { type: Array as PropType<ForkOption[]>, required: true } },
 };
 </script>
