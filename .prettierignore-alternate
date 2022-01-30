@@ -1,0 +1,4 @@
+# These are covered by the vue cli linter, so we don't need to cover them here.
+*.js
+*.ts
+*.vue

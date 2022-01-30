@@ -19,3 +19,35 @@
   },
   "exclude": ["node_modules", ".nuxt", "dist"]
 }
+// {
+//   "compilerOptions": {
+//     "target": "esnext",
+//     "module": "ESNext",
+//     "moduleResolution": "Node",
+//     "lib": ["ESNext", "ESNext.AsyncIterable", "DOM"],
+//     "jsx": "preserve",
+//     "importHelpers": true,
+//     "skipLibCheck": true,
+//     "esModuleInterop": true,
+//     "allowSyntheticDefaultImports": true,
+//     "sourceMap": true,
+//     "strict": true,
+//     "noEmit": true,
+//     "experimentalDecorators": true,
+//     "baseUrl": ".",
+//     "paths": {
+//       "~/*": ["./*"],
+//       "@/*": ["./*"]
+//     },
+//     "types": [
+//       "webpack-env",
+//       "@nuxt/types",
+//       "@types/node"
+//     ]
+//   },
+//   "exclude": [
+//     "node_modules",
+//     ".nuxt",
+//     "dist"
+//   ]
+// }
