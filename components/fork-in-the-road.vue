@@ -10,7 +10,8 @@
           <v-btn
             v-for="(option, i) in options"
             :key="i"
-            :to="option.route ? { name: option.route } : option.to"
+            :to="option.route"
+            nuxt
             color="primary"
             class="ma-4"
           >
@@ -25,10 +26,10 @@
 <script lang="ts">
 import { PropType } from 'vue';
 
-type ForkOption = { text: string; route?: string };
+type ForkOption = { text: string; route: string };
 
 export default {
-  name: 'HelloWorld',
+  name: 'ForkInTheRoad',
   props: { options: { type: Array as PropType<ForkOption[]>, required: true } },
 };
 </script>

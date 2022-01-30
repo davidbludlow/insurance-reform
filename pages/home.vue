@@ -3,15 +3,15 @@
     :options="[
       {
         text: 'Our system of health insurance sucks',
-        route: 'InsuranceSucks-vue-route',
+        route: '/insurance-sucks',
       },
       {
         text: 'Why does our health insurance needs fixing?',
-        route: 'TheProblem-vue-route',
+        route: '/the-problem',
       },
       {
         text: 'Hey David! How\'s it going?',
-        route: 'HeyDavid-vue-route',
+        route: '/hey-david',
       },
     ]"
   >
